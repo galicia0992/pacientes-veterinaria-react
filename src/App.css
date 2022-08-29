@@ -1,0 +1,70 @@
+.seguimiento, .headerListado{
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+.veterinaria, .administralos{
+  color: blueviolet;
+}
+.administralos{
+  font-weight: bold;
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+.formularioMascota{
+  text-align: start;
+}
+.espacioMascota{
+  margin-right: 70px;
+  color: gray;
+  font-weight: 700;
+}
+.inputMascota, .inputSintomas{
+  width: 100%;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
+.nombre{
+  font-weight: bolder;
+  color: gray;
+}
+.hook{
+  font-weight: normal;
+}
+.overfl{
+  height: 700px;
+  overflow-y: scroll;
+}
+.error{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  padding: 5%;
+  text-align: center;
+  border-radius: 7px;
+}
+.boton, .editar{
+  position: relative;
+  top:15px;
+  padding: 2% 4% 2% 4%;
+  border-radius: 7px;
+  color: white;
+}
+.editar:hover, .eliminar:hover{
+  background: indianred;
+}
+
+.eliminar{
+  background-color: red;
+}
+.editar{
+  background-color: indigo;
+}
+
